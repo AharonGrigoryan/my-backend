@@ -14,7 +14,6 @@ mongoose
     useUnifiedTopology: true,
   })
   .then(() => console.log("MongoDB connected."));
-
 // Middlewares
 app.use(cors());
 app.use(express.json());
